@@ -4,8 +4,8 @@ Fill in every line marked `ANSWER:` (one to three sentences each). Write the ans
 
 ## Part A - targets
 
-- Path used (azure or local): ANSWER:
-- If Azure: region used: ANSWER:
+- Path used (azure or local): ANSWER: local (2 Ubuntu containers), because my Azure for Students subscription was not available.
+- If Azure: region used: ANSWER: n/a (Azure not used).
 
 ## Part B - inventory and ad hoc commands
 
@@ -49,4 +49,4 @@ web2 : ok=4 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0
 
 ## Cleanup
 
-- Azure resource group deleted, or local containers removed (yes/no): ANSWER:yes
+- Azure resource group deleted, or local containers removed (yes/no): ANSWER: yes
