@@ -9,16 +9,15 @@
 #   make test-yaml
 shop:
   name: SESAME Shop                       # the string "SESAME Shop"
-  tagline: Fast: cheap: reliable          # the string "Fast: cheap: reliable"
-  country: NO                             # the string "NO" (Norway), not a boolean
-  version: 1.10                           # the string "1.10", not the number 1.1
+  tagline: "Fast: cheap: reliable"        # the string "Fast: cheap: reliable"
+  country: "NO"                           # the string "NO" (Norway), not a boolean
+  version: "1.10"                         # the string "1.10", not the number 1.1
   ports:
     - 80
-	- 443                                 # a list of two numbers: 80 and 443
+    - 443                                 # a list of two numbers: 80 and 443
   admins:                                 # a list of two people, each with name and email
     - name: Amira
       email: amira@example.com
     - name: Youssef
-    email: youssef@example.com
-  enabled: yes                            # the boolean true
-  enabled: true
+      email: youssef@example.com
+  enabled: true                           # the boolean true
